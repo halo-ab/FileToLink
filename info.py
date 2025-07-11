@@ -7,7 +7,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '24541460'))
 API_HASH = environ.get('API_HASH', 'c6a1afbbdca071d53ce9bb53d4602e58')
-BOT_TOKEN = environ.get('BOT_TOKEN', "https://github.com/halo-ab/FileToLink.git")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
